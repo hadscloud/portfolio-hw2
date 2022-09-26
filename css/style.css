@@ -92,13 +92,13 @@ article p {
 .finished-projects img {
     position: relative;
     width: 60%;
-    padding: 10px;
+    margin: 10px;
     
 }
 
 .studyguidelink {
     opacity: 1;
-  display: inline;
+  display: block;
   width: 150%;
   height: auto;
   transition: .5s ease;
