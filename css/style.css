@@ -1,0 +1,160 @@
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    background-color: #daa697;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    font-family: 'Playfair Display', 'Arvo' ;
+    background-color: #C38070;
+    color: #E0CFC9;
+}
+  
+h1 {
+    font-size: 300%;
+}
+
+h2, h3, h4, h5 {
+    margin: 2.5% 0;
+    font-size: 2rem;
+    font-family: 'bebas neue', 'Arvo','Playfair Display', 'Lucida Sans Unicode', 'Lucida Sans';
+    color: #331c14;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+nav a {
+    color: #FDDED3;
+    font-size: 1.15rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+  
+nav a:hover {
+    color: #744231;
+}
+
+main {
+    display: flex;
+    flex: 1 1 0;
+    max-width: 1200px;
+    margin: 2% auto;
+}
+
+article p {
+    font-size: 1.2rem;
+    font-family: 'bebad neue', 'Helvetica', 'Arial', 'sans-serif';
+}
+  
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-image: url("../images/nighthero.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.about {
+    position: relative;
+}
+
+.about img {
+    position: relative;
+    left: 500px;
+    width: 29%;
+
+}
+
+.introduction, .finished-projects, .about, .contact-section {
+    border-style: solid;
+    border-width: 4px;
+    border-color: #C38070;
+    padding: 10px;
+    margin: 15px;
+    background-color: #FDDED3;
+}
+
+.finished-projects {
+    position: relative;
+    
+}
+
+.finished-projects img {
+    position: relative;
+    width: 60%;
+    padding: 10px;
+    
+}
+
+.studyguidelink {
+    opacity: 1;
+  display: block;
+  width: 150%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.studyguidelink:hover {
+    opacity: 0.3;
+}
+
+.horiseonlink {
+    opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.horiseonlink:hover {
+    opacity: 0.3;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.contact-info a {
+    color: #331c14;
+    font-size: 1.15rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact-info li {
+    color: #090305;
+    font-size: 1.4rem;
+    font-family: 'bebas neue', 'helvetica', 'sarif';
+    font-weight:bolder;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.contact-info a:hover {
+    color: #dd0f54;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    font-size: 1.1rem;
+    font-family: 'Playfair Display', 'Arvo' ;
+    background-color: #C38070;
+    color: #E0CFC9;
+}
