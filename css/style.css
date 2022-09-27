@@ -89,10 +89,14 @@ article p {
     
 }
 
+.finished-projects p {
+    color: #9f6f5e;
+}
+
 .finished-projects img {
     position: relative;
     width: 60%;
-    margin: 10px;
+    margin: 15px;
     
 }
 
