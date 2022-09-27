@@ -5,6 +5,12 @@ Student portfolio repo, my second homework assignment
 
 This is an assignment that doesn't have any starter code, so I made the code from scratch. In this assignment I will build a profoilio landing page for potential employers to view that I can modify as the course progesses. 
 
+Link to deployed application: https://hadscloud.github.io/portfolio-hw2/
+
+![screenshot of application](images/hw2-webpage1.png)
+![2nd screenshot of application](images/hw2-webpage2.png)
+![3rd screenshot of application](images/hw2-webpage3.png)
+
 ## User Story
 
 ```

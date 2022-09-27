@@ -11,7 +11,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    font-family: 'Playfair Display', 'Arvo' ;
+    font-family: 'Playfair Display', 'Arvo', sans-serif, serif ;
     background-color: #C38070;
     color: #E0CFC9;
 }
@@ -76,10 +76,6 @@ article p {
     position: relative;
     left: 500px;
     width: 29%;
-}
-
-.hadpic {
-
 }
 
 .introduction, .finished-projects, .about, .contact-section {
@@ -149,7 +145,7 @@ article p {
 .contact-info li {
     color: #090305;
     font-size: 1.4rem;
-    font-family: 'bebas neue', 'helvetica', 'sarif';
+    font-family: 'bebas neue', 'helvetica', sans-serif, 'sarif';
     font-weight:bolder;
     text-decoration: none;
     padding: 8px;
@@ -169,14 +165,18 @@ footer {
     background-color: #C38070;
     color: #E0CFC9;
 }
-/* blends in blackround color to header on smaller devices*/
+/*changes the hero pic size on smaller devices */
 @media screen and (max-width: 523px) {
     .hero {
-    width: 230%;
+    width: 164%;
 }
+/* blends in blackround color to header on smaller devices*/
     body {
     background-color: #C38070;
   }
+    nav {
+        display: block;
+    }
 
 }
 /*prevents photo from moving into white-space on the right on smaller devices */
