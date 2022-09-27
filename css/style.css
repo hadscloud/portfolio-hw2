@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     line-height: 1.5;
     background-color: #daa697;
+    overflow-x: hidden;
 }
 
 header {
@@ -30,6 +31,7 @@ nav ul {
     display: flex;
     justify-content: space-between;
     min-width: 300px;
+    padding: 10px;
 }
 
 nav a {
@@ -56,6 +58,8 @@ article p {
 }
   
 .hero {
+    display: flex;
+    flex-direction: column;
     height: 800px;
     width: 100%;
     margin-bottom: 10px;
@@ -72,6 +76,9 @@ article p {
     position: relative;
     left: 500px;
     width: 29%;
+}
+
+.hadpic {
 
 }
 
@@ -161,4 +168,22 @@ footer {
     font-family: 'Playfair Display', 'Arvo' ;
     background-color: #C38070;
     color: #E0CFC9;
+}
+/* blends in blackround color to header on smaller devices*/
+@media screen and (max-width: 523px) {
+    .hero {
+    width: 230%;
+}
+    body {
+    background-color: #C38070;
+  }
+
+}
+/*prevents photo from moving into white-space on the right on smaller devices */
+@media screen and (max-width: 721px) {
+    .about img{
+      position: relative;
+      left: 10px;
+
+    }
 }
