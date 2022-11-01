@@ -89,6 +89,7 @@ article p {
 
 .finished-projects {
     position: relative;
+    justify-content: center;
     
 }
 
@@ -103,7 +104,7 @@ article p {
     
 }
 
-.studyguidelink {
+.freshTomatoesLink {
     opacity: 1;
   display: block;
   width: 150%;
@@ -112,11 +113,11 @@ article p {
   backface-visibility: hidden;
 }
 
-.studyguidelink:hover {
+.studyguidelink:hover , .horiseonlink:hover , .freshTomatoesLink:hover {
     opacity: 0.3;
 }
 
-.horiseonlink {
+.horiseonlink , .studyguidelink {
     opacity: 1;
   display: inline;
   width: 100%;
@@ -125,9 +126,9 @@ article p {
   backface-visibility: hidden;
 }
 
-.horiseonlink:hover {
+/* .horiseonlink:hover {
     opacity: 0.3;
-}
+} */
 
 .contact-info {
     display: flex;
